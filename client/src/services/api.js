@@ -1,5 +1,5 @@
-import axios from 'axios';
+import axios from "axios";
 
 export const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: "https://kalyana-backend.onrender.com/api", // ✅ use your actual Render backend URL
 });
